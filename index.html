@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EchoMC - שרת Minecraft פרטי</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Rubik', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            primary: '#1F2937',
+            accent: '#3B82F6',
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans min-h-screen flex flex-col items-center justify-center p-6">
+  <header class="max-w-4xl w-full text-center mb-16">
+    <h1 class="text-5xl font-bold mb-4">ברוכים הבאים ל־EchoMC</h1>
+    <p class="text-gray-400 text-lg max-w-xl mx-auto">
+      שרת Minecraft פרטי, עם מערכת שיתופית ואפשרויות קרב מתוחכמות. הצטרפו לחוויה שונה, שבה שחקנים בונים, מתארגנים ונלחמים במשחק של לייפסטייל אמיתי.
+    </p>
+  </header>
+
+  <main class="max-w-3xl w-full flex flex-col items-center gap-8">
+    <section class="text-center">
+      <h2 class="text-3xl font-semibold mb-2">למה EchoMC?</h2>
+      <ul class="text-gray-300 list-disc list-inside space-y-2 max-w-md mx-auto">
+        <li>עולם פתוח עם קרבות טקטיים ושיתופיים.</li>
+        <li>הזדמנויות לבנות ערים וליצור בריתות.</li>
+        <li>קהילה קטנה ואיכותית עם סינון מוקפד.</li>
+        <li>הזדמנות לגלות איך לשחק חכם ולהצליח.</li>
+      </ul>
+    </section>
+
+    <a href="application.html"
+       class="inline-block bg-accent text-white font-semibold rounded-lg px-8 py-4 transition
+              hover:bg-gray-600 hover:shadow-md hover:scale-[1.03] mt-20">
+      למלא טופס בקשת הצטרפות
+    </a>
+  </main>
+
+  <footer class="mt-20 text-gray-600 text-sm">
+    &copy; 2025 EchoMC. כל הזכויות שמורות.
+  </footer>
+</body>
+</html>
